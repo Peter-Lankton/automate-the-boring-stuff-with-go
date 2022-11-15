@@ -49,7 +49,7 @@ Once it's done, do the following:
 ```
 brew install go
 ```
-Now, you're ready for Part II.
+
 
 ### I.c Linux
 
