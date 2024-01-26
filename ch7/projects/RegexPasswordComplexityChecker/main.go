@@ -19,9 +19,9 @@ func main() {
 		regStr, _ := regexp.Compile(`([0-9a-zA-Z]){11,}`)
 
 		if regStr.MatchString(*pass) {
-			fmt.Println("Password ok")
+			fmt.Println("Password adheres to company policy")
 		} else {
-			fmt.Println("Bad password")
+			fmt.Println("Password does not adhere to company policy")
 		}
 
 		os.Exit(0)
