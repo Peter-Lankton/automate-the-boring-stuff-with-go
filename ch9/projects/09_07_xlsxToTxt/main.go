@@ -9,7 +9,7 @@ import (
 )
 
 var opts struct {
-	FileOPEN string `short:"o" long:"open" default:"table.xlsx" description:"Файл таблицы"`
+	FileOPEN string `short:"o" long:"open" default:"table.xlsx" description:"export excel to text"`
 }
 
 func main() {
